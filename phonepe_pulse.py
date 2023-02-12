@@ -12,7 +12,7 @@ df = pd.read_sql_query("SELECT * from aggregated_transaction", connect)
 
 st.title("PhonePe Pulse Data visualization")
      
-     # Filter data based on user input
+     #  User input
 state = st.selectbox("Select a State", df['aggregate_name'].unique())
 year = st.selectbox("Select a Year", df['year'].unique())
 payment = st.selectbox("Select a payment type", df['name'].unique())
@@ -20,7 +20,7 @@ payment = st.selectbox("Select a payment type", df['name'].unique())
      # Filter the data based on user input
 filtered_df = df[(df['aggregate_name'] == state) & (df['year'] == year) & (df['name'] == payment)]
      
-     # Create a bar chart to show transaction type distribution
+     # Create a bar chart 
 fig = px.bar(filtered_df, x="name", y="amount", color="count",
             height=500, title="Transaction Type Distribution")
 st.plotly_chart(fig)
