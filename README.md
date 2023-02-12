@@ -18,10 +18,6 @@ to display the data in an interactive and visually appealing manner.
 6. Provide at least 10 different dropdown options for users to select different
 facts and figures to display on the dashboard.
 
-***Users will be able to access the dashboard from a web browser and easily navigate
-the different visualizations and facts and figures displayed. The dashboard will
-provide valuable insights and information about the data in the Phonepe pulse
-Github repository, making it a valuable tool for data analysis and decision-making.
-Overall, the result of this project will be a comprehensive and user-friendly solution
+***The result of this project will be a comprehensive and user-friendly solution
 for extracting, transforming, and visualizing data from the Phonepe pulse Github
 repository.***
